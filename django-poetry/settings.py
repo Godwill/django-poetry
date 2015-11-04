@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'djgirls.urls'
+ROOT_URLCONF = 'django-poetry.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djgirls.wsgi.application'
+WSGI_APPLICATION = 'django-poetry.wsgi.application'
 
 
 # Database
